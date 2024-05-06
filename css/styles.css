@@ -68,6 +68,24 @@ body.active {
     }
 }
 
+.flags {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.flags__item {
+    width: 25px; /* Tamaño pequeño */
+    margin-left: 10px; /* Espacio entre las banderas */
+}
+
+.flags__img{
+    display: block;
+    cursor: pointer;
+}
+
 /* Estilos para el encabezado */
 header {
     position: absolute;
