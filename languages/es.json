@@ -12,5 +12,8 @@
         "education-place": "Universidad de Murcia",
         "education-title": "Grado en Ingeniería Informática",
         "education-info": "Cursando el grado actualmente."
+    },
+    "projects": {
+        "projects-info": "Colaborador en la creación y el diseño de la página web de mi ciudad natal, Santomera."
     }
 }
