@@ -8,7 +8,7 @@
         "about": "Experiencia"
     },
     "education": {
-        "about": "Estudios",
+        "about": "Formación Académica",
         "place": "Universidad de Murcia",
         "title": "Grado en Ingeniería Informática",
         "info": "Cursando el grado actualmente."
@@ -29,5 +29,13 @@
     },
     "resume": {
         "about": "Descargar CV"
+    },
+    "menu": {
+        "about": "Sobre mí",
+        "experience": "Experiencia",
+        "education": "Formación",
+        "certificates": "Certificados",
+        "projects": "Proyectos",
+        "contact": "Contacto"
     }
 }

@@ -29,5 +29,13 @@
     },
     "resume": {
         "about": "Download Resume"
+    },
+    "menu": {
+        "about": "About",
+        "experience": "Experiencie",
+        "education": "Education",
+        "certificates": "Certificates",
+        "projects": "Projects",
+        "contact": "Contact"
     }
 }
