@@ -1,6 +1,7 @@
 {
     "profile": {
-        "lead-content": "Ingeniero Informático",
-        "description": "Estudiante de Ingeniería Informática motivado y con ganas de aprender."
+        "rol": "Software Engineer",
+        "about": "About me",
+        "description": "Computer Science student with motivation to learn everyday."
     }
 }
