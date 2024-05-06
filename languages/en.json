@@ -26,5 +26,8 @@
         "email": "Your email",
         "message": "Your message",
         "submit": "Send"
+    },
+    "resume": {
+        "about": "Download Resume"
     }
 }

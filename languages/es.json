@@ -26,5 +26,8 @@
         "email": "Tu correo electrónico",
         "message": "Tu mensaje",
         "submit": "Enviar"
+    },
+    "resume": {
+        "about": "Descargar CV"
     }
 }
