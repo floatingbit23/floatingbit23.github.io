@@ -1,6 +1,6 @@
 {
     "profile": {
-        "rol": "Computer Engineer",
+        "rol": "Computer Science Engineer",
         "about": "About Me",
         "description": "Computer Science student in Universidad de Murcia with motivation to learn everyday."
     },
@@ -10,8 +10,8 @@
     "education": {
         "about": "Education",
         "place": "University of Murcia",
-        "title": "Computer Engineering Degree",
-        "info": "Currently studying the degree."
+        "title": "Computer Science Engineering Degree",
+        "info": "4-year university degree focusing on Computer Science / Computer Engineering / Information Technology / Information Systems."
     },
     "projects": {
         "about": "Projects",
