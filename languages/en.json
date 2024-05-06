@@ -1,10 +1,16 @@
 {
     "profile": {
         "rol": "Software Engineer",
-        "about": "About me",
+        "about": "About Me",
         "description": "Computer Science student in Universidad de Murcia with motivation to learn everyday."
     },
     "experience": {
         "about": "Experience"
+    },
+    "education": {
+        "education-about": "Education",
+        "education-place": "University of Murcia",
+        "education-title": "Computer Engineering Degree",
+        "education-info": "Currently studying the degree."
     }
 }
