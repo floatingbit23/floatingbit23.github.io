@@ -3,5 +3,8 @@
         "rol": "Software Engineer",
         "about": "About me",
         "description": "Computer Science student in Universidad de Murcia with motivation to learn everyday."
+    },
+    "experience": {
+        "about": "Experience"
     }
 }
