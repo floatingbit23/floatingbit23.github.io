@@ -20,5 +20,11 @@
     },
     "skills": {
         "about": "Habilidades"
+    },
+    "contact": {
+        "about": "Contacta conmigo",
+        "email": "Tu correo electrónico",
+        "message": "Tu mensaje",
+        "submit": "Enviar"
     }
 }

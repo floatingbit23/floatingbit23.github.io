@@ -20,5 +20,11 @@
     },
     "skills": {
         "about": "Skills"
+    },
+    "contact": {
+        "about": "Get in Touch",
+        "email": "Your email",
+        "message": "Your message",
+        "submit": "Send"
     }
 }
