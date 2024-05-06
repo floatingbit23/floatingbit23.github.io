@@ -8,13 +8,14 @@
         "about": "Experiencia"
     },
     "education": {
-        "education-about": "Estudios",
-        "education-place": "Universidad de Murcia",
-        "education-title": "Grado en Ingeniería Informática",
-        "education-info": "Cursando el grado actualmente."
+        "about": "Estudios",
+        "place": "Universidad de Murcia",
+        "title": "Grado en Ingeniería Informática",
+        "info": "Cursando el grado actualmente."
     },
     "projects": {
-        "projects-about": "Proyectos",
-        "projects-info": "Colaborador en la creación y el diseño de la página web de mi ciudad natal, Santomera."
+        "about": "Proyectos",
+        "ver": "Ver Proyecto",
+        "info": "Colaborador en la creación y el diseño de la página web de mi ciudad natal, Santomera."
     }
 }
