@@ -39,6 +39,7 @@
         "contact": "Contact"
     },
     "certificates": {
-        "info1": "Cibersecurity learning based on local machines."
+        "info1": "Cibersecurity learning based on local machines.",
+        "title": "Professional certificates"
     }
 }
