@@ -123,7 +123,7 @@ header a {
 header a:hover {
     color: #217dbb;
     text-decoration: none;
-    background: #eee;
+    background: #fff;
     border-radius: 4px;
 }
 
@@ -252,7 +252,7 @@ footer {
 
 .btn-rounded-white:hover {
     color: #3498db;
-    background: var(--primary-color);
+    background: #edf2fc;
     text-decoration: none;
 }
 
@@ -288,7 +288,7 @@ footer {
 
 /* Fondo alternativo */
 .background-alt {
-    background: #f2f2f5;
+    background: var(--primary-color);
 }
 
 /* Sección de introducción */
@@ -953,6 +953,11 @@ footer {
 :root{
     --primary-color: #edf2fc;
     --secondary-color: #212121;
+}
+
+.dark-theme{
+    --primary-color: #212121;
+    --secondary-color: #edf2fc;
 }
 
 #icon{
