@@ -394,11 +394,11 @@ footer {
 }
 
 #about h2 {
-    color: var(--primary-color-titles);
+    color: #fff;
 }
 
 #about p {
-    color: var(--primary-color-titles);
+    color: #fff;
     margin: 0;
 }
 
@@ -895,7 +895,7 @@ footer {
 
     #about p {
         text-align: left;
-        background-color: var(--primary-color-titles);
+        color: var(--primary-color-titles);
     }
 }
 
