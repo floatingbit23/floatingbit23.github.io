@@ -712,10 +712,15 @@ footer {
     margin-right: 3px;
 }
 
+#skills p {
+    font-size: 0.8em;
+    color: var(--primary-color-titles);
+}
+
 #skills li {
     display: inline-block;
     margin: 5px;
-    padding: 5px 12px;
+    padding: 0.5px 10px;
     color: #2750a8;
     background: #e4e4ea;
     list-style: none;

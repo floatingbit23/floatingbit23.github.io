@@ -22,7 +22,8 @@
         "about": "Skills",
         "tools": "Tools",
         "lang": "Languages",
-        "others": "Others"
+        "others": "Others",
+        "learn": "Currently learning..."
     },
     "contact": {
         "about": "Get in Touch",
