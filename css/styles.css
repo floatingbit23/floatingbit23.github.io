@@ -686,15 +686,33 @@ footer {
     max-width: 800px;
 }
 
-#skills li {
+/* #skills li {
     display: inline-block;
-    margin: 7px;
+    margin: 5px;
     padding: 5px 10px;
     color: #374054;
     background: #e4e4ea;
     list-style: none;
     cursor: default;
     font-size: 1.2em;
+} */
+
+#skills li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 12px;
+    color: #2750a8;
+    background: #e4e4ea;
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em;
+    border-radius: 20px; /* Agregamos bordes redondeados */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Agregamos una sombra suave */
+    transition: all 0.3s ease; /* Agregamos una transición suave */
+}
+
+#skills li:hover {
+    background: #d0d0d6; /* Cambiamos el color de fondo al pasar el ratón */
 }
 
 /* Contacto */
@@ -919,9 +937,18 @@ footer {
     .education-block span {
         float: none;
     }
+    /* 
     .project-image {
         display: none;
+     }
+    */
+    .project-image img {
+        transition: transform 0.3s ease-in-out;
     }
+    .project-image img:hover {
+        transform: scale(1.1);
+    }
+
     .project-info {
         position: relative;
         margin: 0;
