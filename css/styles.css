@@ -226,7 +226,7 @@ footer {
 
 .social li {
     display: inline-block;
-    font-size: 1.25em;
+    font-size: 1.75em;
     list-style: none;
 }
 
@@ -398,7 +398,7 @@ footer {
 }
 
 #about p {
-    color: #74808a;
+    color: var(--primary-color-titles);
     margin: 0;
 }
 
@@ -455,16 +455,18 @@ footer {
 .vtimeline-content h3 {
     font-size: 1.5em;
     font-weight: 300;
-    color: #374054;
+    color: var(--primary-color-titles);
     display: inline-block;
     margin: 0;
 }
 
 .vtimeline-content h4 {
-    font-size: 1.2em;
-    font-weight: 300;
-    color: #7e8890;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: var(--primary-color-titles);
     margin: 0 0 15px 0;
+
+
 }
 
 .vtimeline-content p {
@@ -505,7 +507,7 @@ footer {
     left: 0;
     top: 10px;
     font-weight: 300;
-    color: #374054;
+    color: var(--primary-color-titles);
 }
 
 /* Educación */
@@ -532,16 +534,16 @@ footer {
     font-weight: 600;
     float: left;
     margin: 0;
-    color: #374054;
+    color: var(--primary-color-titles);
 }
 
-.education-block span {
-    color: #74808a;
+.education-block span { /* date */
+    color: var(--primary-color-titles); 
     float: right;
 }
 
 .education-block h4 {
-    color: #74808a;
+    color: var(--primary-color-titles);
     clear: both;
     font-weight: 500;
     margin: 0 0 15px 0;
@@ -582,16 +584,16 @@ footer {
     font-weight: 500;
     float: left;
     margin: 0;
-    color: #374054;
+    color: var(--primary-color-titles);
 }
 
 .certificate-block span {
-    color: #74808a;
+    color: var(--primary-color-titles);
     float: right;
 }
 
 .certificate-block h4 {
-    color: #74808a;
+    color: var(--primary-color-titles);
     clear: both;
     font-weight: 500;
     margin: 0 0 15px 0;
@@ -642,9 +644,9 @@ footer {
 }
 
 .project-info h3 {
-    font-size: 1.5em;
-    font-weight: 300;
-    color: #374054;
+    font-size: 1.6em;
+    font-weight: 400;
+    color: var(--primary-color-titles);
     margin: 0 0 15px 0;
 }
 
