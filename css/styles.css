@@ -890,10 +890,12 @@ footer {
 
     #about {
         text-align: center;
+        background-color: var(--primary-color);
     }
 
     #about p {
         text-align: left;
+        background-color: var(--primary-color-titles);
     }
 }
 
