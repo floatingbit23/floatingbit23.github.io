@@ -25,7 +25,7 @@ body.active {
 
 /* Estilos para elementos con clase no-js en #experience-timeline */
 .no-js #experience-timeline>div {
-    background: #fff;
+    background: var(--primary-color);
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #dcd9d9;
@@ -102,7 +102,7 @@ header {
 
 header ul {
     display: inline-block;
-    background: #fff;
+    background: var(--primary-color);
     text-align: center;
     padding: 10px;
     margin: 0;
@@ -157,14 +157,14 @@ header.sticky {
     z-index: 20;
     padding: 0 7px;
     border-radius: 4px;
-    background: #fff;
+    background: var(--primary-color);
 }
 
 #mobile-menu-close {
     display: none;
     text-align: right;
     width: 100%;
-    background: #fff;
+    background: var(--primary-color);
     font-size: 1.5em;
     padding-right: 15px;
     padding-top: 10px;
@@ -243,16 +243,16 @@ footer {
 /* Botón redondeado blanco */
 .btn-rounded-white {
     display: inline-block;
-    color: #fff;
+    color: var(--primary-color);
     padding: 15px 25px;
-    border: 3px solid #fff;
+    border: 3px solid var(--primary-color);
     border-radius: 30px;
     transition: .5s ease all;
 }
 
 .btn-rounded-white:hover {
     color: #3498db;
-    background: #fff;
+    background: var(--primary-color);
     text-decoration: none;
 }
 
@@ -318,7 +318,7 @@ footer {
 }
 
 #lead-content h1 {
-    color: #fff;
+    color: var(--primary-color);
     font-weight: 900;
     font-size: 5em;
     text-transform: uppercase;
@@ -353,7 +353,7 @@ footer {
     text-align: center;
     z-index: 10;
     bottom: 15px;
-    color: #fff;
+    color: var(--primary-color);
 }
 
 #lead-down span {
@@ -445,7 +445,7 @@ footer {
 
 .vtimeline-content {
     margin-left: 350px;
-    background: #fff;
+    background: var(--primary-color);
     border: 1px solid #e6e6e6;
     padding: 15px;
     border-radius: 3px;
@@ -482,7 +482,7 @@ footer {
 
 .vtimeline-icon {
     position: relative;
-    color: #fff;
+    color: var(--primary-color);
     width: 50px;
     height: 50px;
     background: #3498db;
@@ -625,7 +625,7 @@ footer {
     max-width: 900px;
     margin: 0 auto 30px auto;
     overflow: hidden;
-    background: #fff;
+    background: var(--primary-color);
     border-radius: 4px;
 }
 
@@ -665,6 +665,7 @@ footer {
     display: none;
 }
 
+
 /* Habilidades */
 #skills {
     padding: 50px 15px;
@@ -703,7 +704,7 @@ footer {
 
 #contact h2 {
     margin: 0 0 15px 0;
-    color: #fff;
+    color: var(--primary-color);
     font-weight: 500;
 }
 
@@ -721,30 +722,30 @@ footer {
     border: none;
     margin-bottom: 10px;
     background: #1d6fa5;
-    color: #fff;
+    color: var(--primary-color);
     transition: .5s ease all;
 }
 
 #contact-form input::-webkit-input-placeholder,
 #contact-form textarea::-webkit-input-placeholder {
-    color: #fff;
+    color: var(--primary-color);
 }
 
 #contact-form input:-moz-placeholder,
 #contact-form textarea:-moz-placeholder {
-    color: #fff;
+    color: var(--primary-color);
     opacity: 1;
 }
 
 #contact-form input::-moz-placeholder,
 #contact-form textarea::-moz-placeholder {
-    color: #fff;
+    color: var(--primary-color);
     opacity: 1;
 }
 
 #contact-form input:-ms-input-placeholder,
 #contact-form textarea:-ms-input-placeholder {
-    color: #fff;
+    color: var(--primary-color);
 }
 
 #contact-form input:focus,
@@ -761,7 +762,7 @@ footer {
 #contact-form button {
     display: block;
     width: 100%;
-    background: #fff;
+    background: var(--primary-color);
     border-radius: 4px;
     padding: 5px 10px;
     border: none;
@@ -791,7 +792,7 @@ footer {
     margin: 0 auto 30px auto;
     padding: 15px;
     border: 1px solid #dcd9d9;
-    background: #fff;
+    background: var(--primary-color);
     text-align: left;
 }
 
@@ -947,4 +948,15 @@ footer {
     }
 }
 
+/* Dark/Light mode */
+
+:root{
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+}
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+}
 
