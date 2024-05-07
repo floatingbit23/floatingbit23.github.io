@@ -962,8 +962,9 @@ footer {
     --secondary-color: #edf2fc;
 }
 
-#icon{
-    width: 30px;
+#icon{ 
+    margin: 1em;
+    width: 25px;
     cursor: pointer;
 }
 
