@@ -394,7 +394,7 @@ footer {
 }
 
 #about h2 {
-    color: #fff;
+    color: var(--primary-color-titles); 
 }
 
 #about p {
@@ -679,11 +679,19 @@ footer {
     margin-bottom: 50px;
 }
 
+#skills h3 {
+    font-size: 1.3em;
+    font-weight: 300;
+    color: var(--primary-color-titles);
+    margin: 0 0 15px 0;
+}
+
 #skills ul {
-    display: block;
+    display: flex;
+    justify-content: ;
     margin: 0 auto;
     padding: 0;
-    max-width: 800px;
+    max-width: 500px;
 }
 
 /* #skills li {
