@@ -25,7 +25,7 @@ body.active {
 
 /* Estilos para elementos con clase no-js en #experience-timeline */
 .no-js #experience-timeline>div {
-    background: var(--primary-color);
+    background: var(--primary-color-titles);
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #dcd9d9;
@@ -97,7 +97,7 @@ header {
     animation-name: dropHeader;
     animation-iteration-count: 1;
     animation-timing-function: ease;
-    animation-duration: 0.75s;
+    animation-duration: 1s;
 }
 
 header ul {
@@ -243,7 +243,7 @@ footer {
 /* Botón redondeado blanco */
 .btn-rounded-white {
     display: inline-block;
-    color: #fff;
+    color: var(--primary-color);
     padding: 15px 25px;
     border: 3px solid var(--primary-color);
     border-radius: 30px;
@@ -394,7 +394,7 @@ footer {
 }
 
 #about h2 {
-    color: #374054;
+    color: var(--primary-color-titles);
 }
 
 #about p {
@@ -410,7 +410,7 @@ footer {
 }
 
 #experience h2 {
-    color: #374054;
+    color: var(--primary-color-titles);
 }
 
 #experience-timeline {
@@ -516,7 +516,7 @@ footer {
 }
 
 #education h2 {
-    color: #374054;
+    color: var(--primary-color-titles);
     margin-bottom: 50px;
 }
 
@@ -566,7 +566,7 @@ footer {
 }
 
 #certificates h2 {
-    color: #374054;
+    color: var(--primary-color-titles);
     margin-bottom: 50px;
 }
 
@@ -616,7 +616,7 @@ footer {
 }
 
 #projects h2 {
-    color: #374054;
+    color: var(--primary-color-titles);
     margin-bottom: 50px;
 }
 
@@ -673,7 +673,7 @@ footer {
 }
 
 #skills h2 {
-    color: #374054;
+    color: var(--primary-color-titles);
     margin-bottom: 50px;
 }
 
@@ -704,7 +704,7 @@ footer {
 
 #contact h2 {
     margin: 0 0 15px 0;
-    color: var(--primary-color);
+    color: var(--primary-color-titles);
     font-weight: 500;
 }
 
@@ -722,30 +722,30 @@ footer {
     border: none;
     margin-bottom: 10px;
     background: #1d6fa5;
-    color: var(--primary-color);
+    color: var(--primary-color-titles);
     transition: .5s ease all;
 }
 
 #contact-form input::-webkit-input-placeholder,
 #contact-form textarea::-webkit-input-placeholder {
-    color: var(--primary-color);
+    color: var(--primary-color-titles);
 }
 
 #contact-form input:-moz-placeholder,
 #contact-form textarea:-moz-placeholder {
-    color: var(--primary-color);
+    color: var(--primary-color-titles);
     opacity: 1;
 }
 
 #contact-form input::-moz-placeholder,
 #contact-form textarea::-moz-placeholder {
-    color: var(--primary-color);
+    color: var(--primary-color-titles);
     opacity: 1;
 }
 
 #contact-form input:-ms-input-placeholder,
 #contact-form textarea:-ms-input-placeholder {
-    color: var(--primary-color);
+    color: var(--primary-color-titles);
 }
 
 #contact-form input:focus,
@@ -762,7 +762,7 @@ footer {
 #contact-form button {
     display: block;
     width: 100%;
-    background: var(--primary-color);
+    background: var(--primary-color-titles);
     border-radius: 4px;
     padding: 5px 10px;
     border: none;
@@ -784,7 +784,7 @@ footer {
 }
 
 .optional-section h2 {
-    color: #374054;
+    color: var(--primary-color-titles);
 }
 
 .optional-section-block {
@@ -792,7 +792,7 @@ footer {
     margin: 0 auto 30px auto;
     padding: 15px;
     border: 1px solid #dcd9d9;
-    background: var(--primary-color);
+    background: var(--primary-color-titles);
     text-align: left;
 }
 
