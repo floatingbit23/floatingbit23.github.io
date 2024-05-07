@@ -16,11 +16,13 @@
  
  :root{
 
-    --primary-color: #edf2fc;
+    --primary-color: #212121;
     --secondary-color: #212121;
 
     --primary-color-titles: #374054;
     --secondary-color-titles: #edf2fc;
+
+    --primary-color-alt: #c1c1c1;
 }
 
 .dark-theme{

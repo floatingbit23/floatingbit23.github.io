@@ -287,8 +287,8 @@ footer {
 }
 
 /* Fondo alternativo */
-.background-alt {
-    background: var(--primary-color);
+.background-alt-2 {
+    background: var(--primary-color-alt);
 }
 
 /* Sección de introducción */
@@ -686,15 +686,21 @@ footer {
     margin: 0 0 15px 0;
 }
 
+#skills h3-2 {
+    font-size: 0.9em;
+    font-weight: 300;
+    color: var(--primary-color-titles);
+    margin: 0 0 15px 0;
+}
+
 #skills ul {
     display: flex;
-    justify-content: ;
     margin: 0 auto;
     padding: 0;
     max-width: 500px;
 }
 
-/* #skills li {
+#skills li-2 {
     display: inline-block;
     margin: 5px;
     padding: 5px 10px;
@@ -702,8 +708,9 @@ footer {
     background: #e4e4ea;
     list-style: none;
     cursor: default;
-    font-size: 1.2em;
-} */
+    font-size: 1em;
+    margin-right: 3px;
+}
 
 #skills li {
     display: inline-block;

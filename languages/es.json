@@ -21,7 +21,8 @@
     "skills": {
         "about": "Habilidades",
         "tools": "Herramientas",
-        "lang": "Lenguajes"
+        "lang": "Lenguajes",
+        "others": "Otros"
     },
     "contact": {
         "about": "Contacta conmigo",
