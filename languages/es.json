@@ -37,5 +37,8 @@
         "certificates": "Certificados",
         "projects": "Proyectos",
         "contact": "Contacto"
+    },
+    "certificates": {
+        "info1": "Aprendizaje de ciberseguridad online basado en entornos locales."
     }
 }
