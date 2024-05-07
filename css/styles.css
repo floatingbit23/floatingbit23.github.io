@@ -398,7 +398,7 @@ footer {
 }
 
 #about p {
-    color: #fff;
+    color: var(--primary-color-titles);
     margin: 0;
 }
 
@@ -915,7 +915,7 @@ footer {
 
     #about p {
         text-align: left;
-        color: var(--primary-color-titles);
+        color: var(--primary-color);
     }
 }
 
