@@ -19,7 +19,9 @@
         "info": "Colaborador en la creación y el diseño de la página web de mi ciudad natal, Santomera."
     },
     "skills": {
-        "about": "Habilidades"
+        "about": "Habilidades",
+        "tools": "Herramientas",
+        "lang": "Lenguajes"
     },
     "contact": {
         "about": "Contacta conmigo",
