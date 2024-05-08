@@ -1063,3 +1063,33 @@ footer {
     }
 }
 
+/* See Code Button in Projects */ 
+.github-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #374054;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+
+.github-logo {
+    width: 20px; /* Ajusta el tamaño del logo según sea necesario */
+    margin-right: 5px;
+}
+
+.view-button {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    background-color: #a0cfee;
+    color: #2750a8;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 30px;
+    border-radius: 50px;
+}

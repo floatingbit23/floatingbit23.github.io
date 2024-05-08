@@ -17,7 +17,8 @@
     "projects": {
         "about": "Projects",
         "ver": "View Project",
-        "info": "Collaborator in the creation and design of my hometown's website based on Wordpress and JS libraries. Constantly updating news on the site."
+        "info": "Collaborator in the creation and design of my hometown's website based on Wordpress and JS libraries. Constantly updating news on the site.",
+        "code": "Code"
     },
     "skills": {
         "about": "Skills",

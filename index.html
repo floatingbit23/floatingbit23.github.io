@@ -225,11 +225,23 @@
                     <!-- End .project-image -->
 
                     <div class="project-info">
+
                         <h3>santomera.es</h3>
+
                         <p data-section="projects" data-value="info">
                             Collaborator in the creation and design of my hometown's website based on Wordpress and JS libraries. Constantly updating news on the site.
-                         </p>   
-                        <a data-section="projects" data-value="ver" href="https://santomera.es">View Project</a>
+                         </p>  
+                        
+                        <button class="view-button" data-section="projects" data-value="ver" onclick="window.open('https://santomera.es', '_blank')">
+                            <span>View Project</span>
+                        </button>
+
+                        <button class="github-button" data-section="projects" data-value="code" onclick="window.open('https://github.com/educarm/edu-grid', '_blank')">
+                            <img src="/images/github-icon.svg" alt="GitHub logo" class="github-logo">
+                            <span>Code</span>
+                        </button>
+                        
+                    
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -258,6 +270,7 @@
             </div>
         </div>
     </div>
+
     <!-- End #projects -->
 
     <div id="skills">
