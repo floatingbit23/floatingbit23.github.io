@@ -5,7 +5,8 @@
         "description": "Hola! Soy Alberto Sánchez, un estudiante de Ingeniería Informática en la Universidad de Muricia enfocado en el desarrollo de software y el Deep Learning."
     },
     "experience": {
-        "about": "Experiencia"
+        "about": "Experiencia",
+        "disclaimer": "Todavía no tengo experiencia laboral, sin embargo estoy desarrollando proyectos personales!"
     },
     "education": {
         "about": "Formación Académica",

@@ -5,7 +5,8 @@
         "description": "Hi! I'm Alberto Sánchez, an undergraduate student Computer Engineering in Universidad de Murcia focused on software development and Deep Learning."
     },
     "experience": {
-        "about": "Experience"
+        "about": "Experience",
+        "disclaimer": "I still don't have work experience, meanwhile I'm developing personal projects!"
     },
     "education": {
         "about": "Education",
