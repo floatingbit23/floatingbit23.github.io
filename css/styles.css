@@ -11,6 +11,8 @@
     Gulp and send to the /css folder which is then loaded on the page.
 */
 
+@media (prefers-color-scheme: dark)
+
 /* Dark/Light mode */
 
 :root{
@@ -929,6 +931,7 @@ footer {
         min-height: auto;
         max-height: auto;
         padding: 100px 15px;
+        background-color: var(--secondary-color);
     }
 
     #lead-content {
