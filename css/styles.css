@@ -11,7 +11,7 @@
     Gulp and send to the /css folder which is then loaded on the page.
 */
 
-@media (prefers-color-scheme: dark)
+/* @media (prefers-color-scheme: dark) */
 
 /* Dark/Light mode */
 
@@ -109,7 +109,7 @@ body.active {
 .dark {
     position: absolute;
     top: 4px;
-    right: 600px;
+    right: 585px;
     display: flex;
     align-items: left;
 }
