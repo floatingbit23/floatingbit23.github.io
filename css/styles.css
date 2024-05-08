@@ -103,6 +103,27 @@ body.active {
     cursor: pointer;
 }
 
+
+.dark {
+    position: absolute;
+    top: 4px;
+    right: 600px;
+    display: flex;
+    align-items: left;
+}
+
+.dark__item {
+    width: 25px; /* Tamaño pequeño */
+    /* margin-left: 10px; Espacio entre las banderas */
+}
+
+.dark__img{
+    display: block;
+    cursor: pointer;
+}
+
+
+
 /* Estilos para el encabezado */
 header {
     position: absolute;
