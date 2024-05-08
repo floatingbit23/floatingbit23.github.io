@@ -894,6 +894,7 @@ footer {
         min-height: auto;
         max-height: auto;
         padding: 100px 15px;
+        background-color: $background;
     }
 
     #lead-content {
@@ -913,6 +914,7 @@ footer {
 
     #about {
         text-align: center;
+        background-color: $background;
 
         p {
             text-align: left;
