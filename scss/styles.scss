@@ -27,6 +27,16 @@
         12. Media Queries
 */
 
+:root{
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+}
+
+.dark-theme{
+    --primary-color: #212121;
+    --secondary-color: #edf2fc;
+}
+
 /*
     ------------------------
     ----- 1. Variables -----
@@ -206,7 +216,7 @@ header {
     position: fixed;
     right: 15px;
     top: 10px;
-    color: $base-color;
+    color: var();
     font-size: 1.5em;
     z-index: 20;
     padding: 0 7px;
@@ -937,6 +947,7 @@ footer {
     #lead-content {
         h1 {
             font-size: 2em;
+            color: var(--primary-color)
         }
 
         h2 {
