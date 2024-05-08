@@ -889,6 +889,12 @@ footer {
 // Medium Devices
 @media only screen and (max-width : 992px) {
 
+        /* Establecer los estilos de fondo y texto para el tema oscuro */
+        body.dark-theme {
+            background-color: #212121;
+            color: #ffffff;
+        }
+
     #lead {
         height: auto;
         min-height: auto;
