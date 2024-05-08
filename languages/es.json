@@ -45,5 +45,8 @@
     "certificates": {
         "info1": "Aprendizaje de ciberseguridad online basado en entornos locales.",
         "title": "Certificados profesionales"
+    },
+    "mobile": {
+        "close": "Cerrar"
     }
 }

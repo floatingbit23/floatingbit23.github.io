@@ -45,5 +45,8 @@
     "certificates": {
         "info1": "Cibersecurity learning based on local machines.",
         "title": "Professional certificates"
+    },
+    "mobile": {
+        "close": "Close"
     }
 }
