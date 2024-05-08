@@ -184,7 +184,8 @@ header.sticky {
     background: var(--primary-color);
     font-size: 1.5em;
     padding-right: 15px;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 10;
     cursor: pointer;
     color: #3498db;
 }
