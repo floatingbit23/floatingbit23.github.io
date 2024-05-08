@@ -11,6 +11,23 @@
     Gulp and send to the /css folder which is then loaded on the page.
 */
 
+/* Dark/Light mode */
+
+:root{
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+}
+
+.dark-theme{
+    --primary-color: #212121;
+    --secondary-color: #edf2fc;
+}
+
+#icon{ 
+    margin: 1em;
+    width: 25px;
+    cursor: pointer;
+}
 
 /* Estilos generales */
 body {
@@ -997,23 +1014,5 @@ footer {
         font-size: 0.9em;
         padding: 5px 10px;
     }
-}
-
-/* Dark/Light mode */
-
-:root{
-    --primary-color: #edf2fc;
-    --secondary-color: #212121;
-}
-
-.dark-theme{
-    --primary-color: #212121;
-    --secondary-color: #edf2fc;
-}
-
-#icon{ 
-    margin: 1em;
-    width: 25px;
-    cursor: pointer;
 }
 
