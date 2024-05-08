@@ -23,7 +23,11 @@
         "tools": "Tools",
         "lang": "Languages",
         "others": "Others",
-        "learn": "Currently learning..."
+        "learn": "Currently learning...",
+        "car": "Driver's license",
+        "experience": "Worked as Waiter",
+        "db": "Databases",
+        "cloud": "Cloud"
     },
     "contact": {
         "about": "Get in Touch",

@@ -23,7 +23,11 @@
         "tools": "Herramientas",
         "lang": "Lenguajes",
         "others": "Otros",
-        "learn": "Aprendiendo actualmente..."
+        "learn": "Aprendiendo actualmente...",
+        "car": "Carné de conducir B",
+        "experience": "Experiencia como camarero",
+        "db": "Bases de datos",
+        "cloud": "Nube"
     },
     "contact": {
         "about": "Contacta conmigo",

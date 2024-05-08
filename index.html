@@ -45,7 +45,7 @@
                 <a data-section="menu" data-value="projects" href="#projects">Projects</a>
             </li>
             <li>
-                <a href="#skills">Skills</a>
+                <a href="#skills">Tech Stack</a>
             </li>
             <li>
                 <a data-section="menu" data-value="contact" href="#contact">Contact</a>
@@ -74,7 +74,7 @@
 
     <div id="lead">
         <div id="lead-content">
-            <img class="lead-img" style="margin-bottom: 20px" src="/images/foto_cv2.jpg" >
+            <img class="lead-img" style="margin-bottom: 20px" src="/images/foto_cv.jpg" >
             <h1>Alberto Sánchez</h1>
             <h2 data-section="profile" data-value="rol">Computer Science Engineer</h2>
             <a href="https://raw.githubusercontent.com/floatingbit23/floatingbit23.github.io/master/images/earth.jpg" class="btn-rounded-white" download data-section="resume" data-value="about">Download Resume</a>
@@ -255,25 +255,36 @@
     <!-- End #projects -->
 
     <div id="skills">
-        <h2 class="heading" data-section="skills" data-value="about">Skills</h2>
+        <h2 class="heading" data-section="skills" data-value="about">Tech Stack</h2>
         
         <ul>
-            <h3 class="heading" data-section="skills" data-value="tools" style="margin-right: 6px;">Tools</h3>
-            <li><img src="/images/linux-colour.svg" alt="Linux" style="vertical-align: middle; margin-right: 6px;">Linux</li>
-            <li><img src="/images/git-icon.svg" alt="Git" style="vertical-align: middle; margin-right: 6px;">Git</li>
-            <li><img src="/images/visual-studio-code-1.svg" alt="VS Code" style="vertical-align: middle; margin-right: 6px;">VS Code</li>
+            <h3 class="heading" data-section="skills" data-value="tools" style="margin-right: 6px;">Control Version</h3>
+                <li><img src="/images/linux-colour.svg" alt="Linux" style="vertical-align: middle; margin-right: 6px;">Linux</li>
+                <li><img src="/images/git-icon.svg" alt="Git" style="vertical-align: middle; margin-right: 6px;">Git</li>
         </ul>
 
         <ul>
             <h3 class="heading" data-section="skills" data-value="lang" style="margin-right: 6px;">Languages</h3>
-            <li><img src="/images/gnu_bash-icon.svg" alt="Bash" style="vertical-align: middle; margin-right: 6px;">Bash</li>
-            <li><img src="/images/c.svg" alt="C++" style="vertical-align: middle; margin-right: 6px;">C++</li>
-            <li><img src="/images/c_original.svg" alt="C" style="vertical-align: middle; margin-right: 6px;">C</li>
-            <li><img src="/images/java-icon.svg" alt="Java" style="vertical-align: middle; margin-right: 6px;">Java</li>
+                <li><img src="/images/gnu_bash-icon.svg" alt="Bash" style="vertical-align: middle; margin-right: 6px;">Bash</li>
+                <li><img src="/images/c.svg" alt="C++" style="vertical-align: middle; margin-right: 6px;">C++</li>
+                <li><img src="/images/c_original.svg" alt="C" style="vertical-align: middle; margin-right: 6px;">C</li>
+                <li><img src="/images/java-icon.svg" alt="Java" style="vertical-align: middle; margin-right: 6px;">Java</li>
         </ul>
 
         <ul>
-            <h3 class="heading" style="text-align: left;  margin-right: 6px;">Backend</h3>
+            <h3 class="heading" style="text-align: left;  margin-right: 6px;">IDE</h3>
+                <li><img src="/images/visual-studio-code-1.svg" alt="VS Code" style="vertical-align: middle; margin-right: 6px;">VS Code</li>
+                <li><img src="/images/eclipse.svg" alt="Eclipse" style="vertical-align: middle; margin-right: 6px;">Eclipse</li>
+        </ul>
+
+        <ul>
+            <h3 class="heading" data-section="skills" data-value="db" style="text-align: left;  margin-right: 6px;">Databases</h3>
+            <li><img src="/images/mysql.svg" alt="mySQL" style="vertical-align: middle; margin-right: 6px;">mySQL</li>
+        </ul>
+
+        <ul>
+            <h3 class="heading" data-section="skills" data-value="cloud" style="text-align: left;  margin-right: 6px;">Cloud Service</h3>
+            <li><img src="/images/amazon-web-services-2.svg" alt="AWS" style="vertical-align: middle; margin-right: 6px;">AWS</li>
         </ul>
 
         <ul>
@@ -288,8 +299,8 @@
 
         <ul>
         <h3-2 class="heading" style="text-align: left;  margin-right: 10px;" data-section="skills" data-value="others">Others</h3-2>
-        <li-2>Carné de conducir B</li-2>
-        <li-2>Experiencia como camarero</li-2>
+        <li-2 data-section="skills" data-value="car" >Carné de conducir B</li-2>
+        <li-2 data-section="skills" data-value="experience" >Experiencia como camarero</li-2>
         </ul>
 
         <ul>
@@ -360,43 +371,5 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
 
-    <!-- Dark/Light Mode -->
-
-    <script>
-
-        var icon = document.getElementById("icon");
-
-        if(localStorage.getItem("theme") == null){
-            localStorage.setItem("theme", "dark");
-        }
-
-        let localData = localStorage.getItem("theme");
-
-        if(localData == "light"){
-            icon.src = "https://floatingbit23.github.io/images/moon.svg";
-            document.body.classList.add("dark-theme");
-        } else if(localData == "dark"){
-            icon.src = "https://floatingbit23.github.io/images/sun.svg";
-            document.body.classList.add("dark-theme");
-        }
-
-        icon.onclick = function(){
-
-            document.body.classList.toggle("dark-theme");
-
-                if( document.body.classList.contains("dark-theme") ){
-                    icon.src = "https://floatingbit23.github.io/images/sun.svg";
-                    localStorage.setItem("theme", "dark");
-        
-                } else {
-                    icon.src = "https://floatingbit23.github.io/images/moon.svg";
-                    localStorage.setItem("theme", "light");
-                }
-
-            }
-
-    </script>
-
 </body>
-
 </html>
