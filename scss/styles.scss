@@ -216,7 +216,7 @@ header {
     position: fixed;
     right: 15px;
     top: 10px;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-size: 1.5em;
     z-index: 20;
     padding: 0 7px;
@@ -947,7 +947,7 @@ footer {
     #lead-content {
         h1 {
             font-size: 2em;
-            color: var(--primary-color)
+            color: var(--secondary-color)
         }
 
         h2 {
@@ -974,6 +974,7 @@ footer {
     }
 
     .project-info {
+        color: var(--secondary-color);
         position: relative;
         margin: 0;
         padding: 30px 15px;
