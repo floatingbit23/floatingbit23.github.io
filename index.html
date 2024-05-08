@@ -361,17 +361,36 @@
 
     <!-- Dark/Light Mode -->
     <script>
+
         var icon = document.getElementById("icon");
+
+        localStorage.setItem("theme", "light");
+
+        let localData = localStorage.getItem("theme");
+
+        if(localData == "light"){
+            icon.src = "/images/moon.svg";
+            document.body.classList.remove("dark-theme");
+        } else if(localData == "dark"){
+            icon.src = "/images/sun.svg";
+            document.body.classList.add("dark-theme");
+        }
+
         icon.onclick = function(){
+
             document.body.classList.toggle("dark-theme");
-           // document.getElementById("mobile-menu").classList.toggle("dark-theme"); // Mobile Menu
+
                 if( document.body.classList.contains("dark-theme") ){
-                    icon.src = "https://floatingbit23.github.io/images/sun.svg";
+                    icon.src = "/images/sun.svg";
+                    localStorage.setItem("theme", "dark");
         
                 } else {
-                    icon.src = "https://floatingbit23.github.io/images/moon.svg";
+                    icon.src = "/images/moon.svg";
+                    localStorage.setItem("theme", "light");
                 }
+
             }
+
     </script>
 
 </body>
