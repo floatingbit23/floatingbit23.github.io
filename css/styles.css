@@ -124,6 +124,10 @@ body.active {
     cursor: pointer;
 }
 
+.lead-img{
+    border-radius: 50%; /* Esto hace que el borde sea redondo */
+}
+
 
 
 /* Estilos para el encabezado */
@@ -342,6 +346,7 @@ footer {
     padding: 15px;
     overflow: hidden;
 }
+
 
 #lead-content {
     position: absolute;
