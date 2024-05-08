@@ -37,6 +37,12 @@
     --secondary-color: #edf2fc;
 }
 
+#icon{ 
+    margin: 1em;
+    width: 25px;
+    cursor: pointer;
+}
+
 /*
     ------------------------
     ----- 1. Variables -----
@@ -48,8 +54,8 @@ $base-color: #3498db;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
-$background: #fff;
-$background-alt: #f2f2f5;
+$background: var(--primary-color);
+$background-alt: var(--secondary-color);
 
 // Define border colors
 $border: #dcd9d9;
@@ -216,7 +222,7 @@ header {
     position: fixed;
     right: 15px;
     top: 10px;
-    color: var(--secondary-color);
+    //color: var(--primary-color);
     font-size: 1.5em;
     z-index: 20;
     padding: 0 7px;
@@ -346,7 +352,7 @@ footer {
 }
 
 .background-alt {
-    background: $background-alt;
+    background: $background;
 }
 
 /*
@@ -947,7 +953,6 @@ footer {
     #lead-content {
         h1 {
             font-size: 2em;
-            color: var(--secondary-color)
         }
 
         h2 {
@@ -974,7 +979,6 @@ footer {
     }
 
     .project-info {
-        color: var(--secondary-color);
         position: relative;
         margin: 0;
         padding: 30px 15px;
