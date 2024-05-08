@@ -956,7 +956,7 @@ footer {
 
     #about p {
         text-align: left;
-        color: var(--primary-color);
+        color: var(--primary-color-titles);
     }
 }
 
