@@ -16,7 +16,7 @@
 /* Dark/Light mode */
 
 :root{
-    --primary-color: #f0f8ff;
+    --primary-color: rgba(255, 255, 255, 0.897);
     --secondary-color: #212121;
 }
 
@@ -437,6 +437,7 @@ footer {
 #about {
     padding: 75px 15px;
     border-bottom: 1px solid #dcd9d9;
+    color: var(--primary-color-titles); 
 }
 
 #about h2 {
@@ -445,7 +446,6 @@ footer {
 
 #about p {
     color: var(--primary-color-titles);
-    margin: 0;
 }
 
 /* Experiencia */
