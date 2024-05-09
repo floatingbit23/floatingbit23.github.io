@@ -16,7 +16,7 @@
 /* Dark/Light mode */
 
 :root{
-    --primary-color: #edf2fc;
+    --primary-color: #f0f8ff;
     --secondary-color: #212121;
 }
 
@@ -681,6 +681,19 @@ footer {
 #projects h2 {
     color: var(--primary-color-titles);
     margin-bottom: 50px;
+}
+
+#projects li {
+    display: inline-block;
+    margin: 5px;
+    padding: 3px 6px;
+    color: #f0f8ff;
+    background: #16527a;
+    list-style: none;
+    cursor: default;
+    font-size: 1em;
+    margin-right: 3px;
+    border-radius: 10px;
 }
 
 .project {
