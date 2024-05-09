@@ -712,26 +712,54 @@ footer {
     height: auto; /* Mantener la proporción de aspecto */
 }
 
+/* Project without Slider */
+
 .project-info {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 300px;
+    margin-left: 350px;
     padding: 15px;
 }
 
 .project-info h3 {
+    font-size: 1.6em;
+    font-weight: 600;
+    color: var(--primary-color-titles);
+    position: relative;
+}
+
+.project-info p {
+    color: #74808a;
+    margin: 0 0 12px 0;
+    font-size: 1em;
+}
+
+/* Project with Slider */
+
+.project-info-slider {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 350px;
+    padding: 15px;
+}
+
+.project-info-slider h3 {
     font-size: 1.6em;
     font-weight: 400;
     color: var(--primary-color-titles);
     margin: 0 0 15px 0;
 }
 
-.project-info p {
+.project-info-slider p {
     color: #74808a;
     margin: 0 0 15px 0;
     font-size: 0.9em;
 }
+
+
+
 
 .no-image .project-info {
     position: relative;
@@ -1079,7 +1107,9 @@ footer {
     }
 }
 
-/* See Code Button in Projects */ 
+/* Buttons in Projects WITHOUT Slider */ 
+
+/* View Code Button */
 .github-button {
     display: inline-flex;
     align-items: center;
@@ -1097,6 +1127,7 @@ footer {
     margin-right: 5px;
 }
 
+/* View Project Button */
 .view-button {
     position: relative;
     display: inline-flex;
@@ -1108,4 +1139,85 @@ footer {
     cursor: pointer;
     margin-left: 30px;
     border-radius: 50px;
+}
+
+
+/* Buttons in Projects WITH Slider */ 
+
+/* View Code Button */
+.github-button-slider {
+    display: inline-flex;
+    align-items: center;
+    background-color: #374054;
+    color: white;
+    border: none;
+    padding: 7px 10px;
+    cursor: pointer;
+    margin-left: 0px;
+    border-radius: 30px;
+}
+
+.github-logo {
+    width: 20px; /* Ajusta el tamaño del logo según sea necesario */
+    margin-right: 5px;
+}
+
+/* View Project Button */
+.view-button-slider {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    background-color: #a0cfee;
+    color: #2750a8;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 0px;
+    border-radius: 50px;
+}
+
+
+/* Image Slider */
+.slider {
+    position: relative;
+    width: 100%;
+    margin:auto;
+    overflow: hidden;
+}
+
+.slider img {
+
+    display: none;
+}
+
+img.displaySlide {
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.slider button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.prev{
+    left: -5px;
+}
+
+.next{
+    left: 395px;
+}
+
+@keyframes fade {
+    from {opacity: 0.5}
+    to {opacity: 1;}
 }
