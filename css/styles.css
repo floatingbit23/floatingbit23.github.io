@@ -308,8 +308,7 @@ footer {
 }
 
 .shadow-large {
-
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px  rgba(0, 0, 0, 0.15);
+    box-shadow: 5px 0px 50px 10px  rgba(28, 7, 145, 0.938), -5px -0px 50px -10px  rgba(28, 7, 145, 0.938);
 }
 
 /* Encabezado */
