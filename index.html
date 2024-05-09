@@ -237,6 +237,7 @@
 
                          <p><br></p>
                         
+                        
                         <button style="margin-left: 130px;" class="view-button" data-section="projects" data-value="ver" onclick="window.open('https://santomera.es', '_blank')">
                             <span style="color: #000023;">View Project</span>
                         </button>
@@ -245,6 +246,7 @@
                             <img src="/images/github-icon.svg" alt="GitHub logo" class="github-logo">
                             <span>Code</span>
                         </button>
+                        
                         
                         <!-- Tecnologías usadas en el proyecto -->
                         <ul style="margin-left: 90px;">
@@ -270,13 +272,14 @@
                         <div class="slides">
                             <img class="slide" src="images/santomera-web-vertical.jpg" width="420px" height="550px" style="border-radius: 5px;">
                             <img class="slide" src="images/santomera-carrera.jpg" width="420px" height="550px" style="border-radius: 5px;">
+                            <img class="slide" src="images/earth.jpg" width="420px" height="550px" style="border-radius: 5px;">
                             <!-- <img class="slide" src="/images/earth.jpg" alt="Image #3"> -->
                         </div>
 
                         <button class="prev" onclick="prevSlide()"> &#10094 </button>
                         <button class="next" onclick="nextSlide()"> &#10095 </button>
 
-                        <div class="project-info">
+                        <div class="project-info-slider">
             
                             <h3 style="margin-left: 130px;">santomera.es</h3>
     
@@ -285,21 +288,48 @@
                                 </p>  
                                         
                                 <p><br></p>
-
-                                  
-                                    <button  class="view-button" data-section="projects" data-value="ver" onclick="window.open('https://santomera.es', '_blank')">
-                                        <span style="color: #000023;">View Project</span>
-                                    </button>
-                                    
-                                    <button  class="github-button" data-section="projects" data-value="code" onclick="window.open('https://github.com/educarm/edu-grid', '_blank')">
-                                        <img src="/images/github-icon.svg" alt="GitHub logo" class="github-logo">
-                                        <span>Code</span>
-                                    </button> 
-                                  
-                                        
+       
                                 <!-- Tecnologías usadas en el proyecto -->
                                 <ul style="margin-left: 90px;">
-                                    <li style="background-color: #ff4500 ; color: black;">HTML</li>
+
+                                    <button style="margin-top: 10px; position: relative;
+                                    display: inline-flex;
+                                    align-items: center;
+                                    background-color: #a0cfee;
+                                    color: #2750a8;
+                                    border: none;
+                                    padding: 5px 10px;
+                                    cursor: pointer;
+                                    margin-right: 90px;
+                                    border-radius: 50px;
+                                    width: auto;
+                                    max-width: 200px;"                          
+                                    data-section="projects" data-value="ver" onclick="window.open('https://santomera.es', '_blank')">
+                                        
+                                        <span style="color: #000023; font-size: 16px; margin-right: 5px;">View Project</span>
+                                    
+                                    </button>
+                                        
+                                    <button style="margin-top: 10px; position: relative;
+                                    display: inline-flex;
+                                    align-items: center;
+                                    background-color: #374054;
+                                    color: white;
+                                    border: none;
+                                    padding: 5px 10px;
+                                    cursor: pointer;
+                                    margin-left: 10px;
+                                    border-radius: 30px;
+                                    margin-right: 150px;"
+                                    data-section="projects" data-value="code" onclick="window.open('https://github.com/educarm/edu-grid', '_blank')">
+                                        
+                                        <img class="github-logo" src="/images/github-icon.svg" alt="GitHub logo" style="width: 20px; height: 20px; margin-right: 5px;">
+                                        <span style="font-size: 16px; margin-right: 5px;">Code</span>
+
+                                    </button> 
+
+                                    <p><br></p>
+                                    
                                     <li style="background-color: yellow; color: black;" >JavaScript</li>
                                     <li >CSS</li>
                                 </ul>

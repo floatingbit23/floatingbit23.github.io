@@ -735,7 +735,7 @@ footer {
     font-size: 1em;
 }
 
-/* Project with Slider */
+/* Project WITH Slider */
 
 .project-info-slider {
     position: absolute;
@@ -743,7 +743,17 @@ footer {
     transform: translateY(-50%);
     margin-left: 350px;
     padding: 15px;
-}
+} 
+
+/* .project-info-slider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+} */
 
 .project-info-slider h3 {
     font-size: 1.6em;
@@ -757,6 +767,7 @@ footer {
     margin: 0 0 15px 0;
     font-size: 0.9em;
 }
+
 
 
 
@@ -1122,6 +1133,7 @@ footer {
     border-radius: 30px;
 }
 
+
 .github-logo {
     width: 20px; /* Ajusta el tamaño del logo según sea necesario */
     margin-right: 5px;
@@ -1153,7 +1165,7 @@ footer {
     border: none;
     padding: 7px 10px;
     cursor: pointer;
-    margin-left: 0px;
+    margin-right: 200px;
     border-radius: 30px;
 }
 
@@ -1172,7 +1184,7 @@ footer {
     border: none;
     padding: 5px 10px;
     cursor: pointer;
-    margin-left: 0px;
+    margin-right: 300px;
     border-radius: 50px;
 }
 
