@@ -685,15 +685,17 @@ footer {
 
 .project {
     position: relative;
-    max-width: 900px;
-    margin: 0 auto 30px auto;
+    max-width: 1400px;
+    margin: 0 auto 100px auto;
     overflow: hidden;
     background: var(--primary-color);
-    border-radius: 4px;
+    border-radius: 5px;
 }
 
 .project-image {
     float: left;
+    max-width: 100%; /* Ajustar el tamaño máximo de la imagen al ancho del contenedor */
+    height: auto; /* Mantener la proporción de aspecto */
 }
 
 .project-info {
