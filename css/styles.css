@@ -876,7 +876,7 @@ footer {
 
 #contact h2 {
     margin: 0 0 15px 0;
-    color: var(--primary-color-titles);
+    color: rgb(18, 13, 68);
     font-weight: 500;
 }
 
@@ -934,11 +934,11 @@ footer {
 #contact-form button {
     display: block;
     width: 100%;
-    background: var(--primary-color-titles);
+    background: #95e89a;
     border-radius: 4px;
     padding: 5px 10px;
     border: none;
-    color: #3498db;
+    color: #184404;
     font-weight: 700;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: .5s ease all;
