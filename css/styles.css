@@ -803,7 +803,7 @@ footer {
     font-weight: 300;
     color: var(--primary-color-titles);
     margin: 0 0 15px 0;
-    margin-inline: 180px;
+   margin-inline: 180px; 
     align-self: center;
 }
 
