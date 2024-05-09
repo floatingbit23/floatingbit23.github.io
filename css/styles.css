@@ -16,7 +16,7 @@
 /* Dark/Light mode */
 
 :root{
-    --primary-color: rgba(255, 255, 255, 0.897);
+    --primary-color: rgba(255, 255, 255, 0.808);
     --secondary-color: #212121;
 }
 
@@ -283,6 +283,8 @@ footer {
 .social a:hover {
     color: #3498db;
 }
+
+
 
 /* Botón redondeado blanco */
 .btn-rounded-white {
@@ -800,6 +802,8 @@ footer {
     font-weight: 300;
     color: var(--primary-color-titles);
     margin: 0 0 15px 0;
+    margin-inline: 180px;
+    align-self: center;
 }
 
 #skills h3-2 {
@@ -807,6 +811,8 @@ footer {
     font-weight: 300;
     color: var(--primary-color-titles);
     margin: 0 0 15px 0;
+    margin-inline: 220px;
+    align-self: center;
 }
 
 #skills ul {
@@ -817,6 +823,7 @@ footer {
 }
 
 #skills li-2 {
+    flex: 1;
     display: inline-block;
     margin: 5px;
     padding: 5px 10px;
@@ -826,6 +833,13 @@ footer {
     cursor: default;
     font-size: 1em;
     margin-right: 3px;
+    border-radius: 20px; /* Agregamos bordes redondeados */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Agregamos una sombra suave */
+    transition: all 0.3s ease; /* Agregamos una transición suave */
+}
+
+#skills li-2:hover {
+    background: #d0d0d6; /* Cambiamos el color de fondo al pasar el ratón */
 }
 
 #skills p {
@@ -834,6 +848,7 @@ footer {
 }
 
 #skills li {
+    flex: 1;
     display: inline-block;
     margin: 5px;
     padding: 0.5px 10px;
@@ -1131,6 +1146,11 @@ footer {
     cursor: pointer;
     margin-left: 30px;
     border-radius: 30px;
+    transition: background-color 0.5s;
+}
+
+.github-button:hover {
+    background-color: #f0f0f09a; /* Cambia el color de fondo a gris claro cuando se pasa el cursor */
 }
 
 
@@ -1151,6 +1171,11 @@ footer {
     cursor: pointer;
     margin-left: 30px;
     border-radius: 50px;
+    transition: background-color 0.5s; /* Agrega una transición suave al cambio de color de fondo */
+}
+
+.view-button:hover {
+    background-color: #f0f0f09a; /* Cambia el color de fondo a gris claro cuando se pasa el cursor */
 }
 
 
