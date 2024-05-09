@@ -316,7 +316,6 @@ footer {
     font-size: 2em;
     font-weight: 300;
     margin: 0 0 30px 0;
-    margin-bottom: 10px;
 }
 
 .heading:after {
@@ -789,7 +788,6 @@ footer {
 #skills {
     padding: 50px 15px;
     text-align: center;
-    flex-wrap: wrap;
 }
 
 #skills h2 {
@@ -816,7 +814,6 @@ footer {
     margin: 0 auto;
     padding: 0;
     max-width: 500px;
-    margin-left: 700px;
 }
 
 #skills li-2 {
@@ -1134,10 +1131,6 @@ footer {
     cursor: pointer;
     margin-left: 30px;
     border-radius: 30px;
-    transition: background-color 0.3s;
-}
-.github-button:hover {
-    background-color: #f1ececa4; /* Cambia el color de fondo a gris claro cuando se pasa el cursor */
 }
 
 
@@ -1158,12 +1151,7 @@ footer {
     cursor: pointer;
     margin-left: 30px;
     border-radius: 50px;
-    transition: background-color 0.3s;
 }
-.view-button:hover {
-    background-color: #f1ececa4; /* Cambia el color de fondo a gris claro cuando se pasa el cursor */
-}
-
 
 
 /* Buttons in Projects WITH Slider */ 
