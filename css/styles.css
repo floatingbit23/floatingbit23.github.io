@@ -713,6 +713,7 @@ footer {
     float: left;
     max-width: 100%; /* Ajustar el tamaño máximo de la imagen al ancho del contenedor */
     height: auto; /* Mantener la proporción de aspecto */
+    cursor: pointer;
 }
 
 /* Project without Slider */
@@ -736,6 +737,7 @@ footer {
     color: #74808a;
     margin: 0 0 12px 0;
     font-size: 1em;
+    text-align: left;
 }
 
 /* Project WITH Slider */
@@ -746,6 +748,7 @@ footer {
     transform: translateY(-50%);
     margin-left: 350px;
     padding: 15px;
+    text-align: left;
 } 
 
 /* .project-info-slider {
@@ -760,15 +763,16 @@ footer {
 
 .project-info-slider h3 {
     font-size: 1.6em;
-    font-weight: 400;
+    font-weight: 600;
     color: var(--primary-color-titles);
-    margin: 0 0 15px 0;
+    position: relative;
 }
 
 .project-info-slider p {
     color: #74808a;
-    margin: 0 0 15px 0;
-    font-size: 0.9em;
+    margin: 0 0 0 0;
+    font-size: 1em;
+    text-align: left;
 }
 
 
@@ -1191,8 +1195,14 @@ footer {
     border: none;
     padding: 7px 10px;
     cursor: pointer;
-    margin-right: 200px;
+    margin-left: 330px;
+    margin-top: 39px;
     border-radius: 30px;
+    transition: background-color 0.5s;
+}
+
+.github-button-slider:hover {
+    background-color: #f0f0f09a; /* Cambia el color de fondo a gris claro cuando se pasa el cursor */
 }
 
 .github-logo {
@@ -1210,8 +1220,14 @@ footer {
     border: none;
     padding: 5px 10px;
     cursor: pointer;
-    margin-right: 300px;
+    margin-left: 200px;
+    margin-top: 40px;
     border-radius: 50px;
+    transition: background-color 0.5s; /* Agrega una transición suave al cambio de color de fondo */
+}
+
+.view-button-slider:hover {
+    background-color: #f0f0f09a; /* Cambia el color de fondo a gris claro cuando se pasa el cursor */
 }
 
 
@@ -1224,8 +1240,8 @@ footer {
 }
 
 .slider img {
-
     display: none;
+    cursor: pointer;
 }
 
 img.displaySlide {
