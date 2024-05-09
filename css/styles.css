@@ -21,7 +21,7 @@
 }
 
 .dark-theme{
-    --primary-color: #212121;
+    --primary-color: #000019;
     --secondary-color: #edf2fc;
 }
 
@@ -688,8 +688,9 @@ footer {
     max-width: 1400px;
     margin: 0 auto 100px auto;
     overflow: hidden;
-    background: var(--primary-color);
+    background-color: var(--primary-color);
     border-radius: 5px;
+    border-color: #3498db;
 }
 
 .project-image {
@@ -1072,7 +1073,7 @@ footer {
     background-color: #374054;
     color: white;
     border: none;
-    padding: 5px 10px;
+    padding: 7px 10px;
     cursor: pointer;
     margin-left: 30px;
     border-radius: 30px;
@@ -1088,7 +1089,7 @@ footer {
     display: inline-flex;
     align-items: center;
     background-color: #a0cfee;
-    color: #2750a8;
+    color: #0d1e44;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
