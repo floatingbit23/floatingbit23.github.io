@@ -15,6 +15,7 @@
         "info": "4-year university degree focusing on Computer Science / Computer Engineering / Information Technology / Information Systems."
     },
     "projects": {
+        "namep1": "Santomera City Council Web Page",
         "about": "Projects",
         "ver": "View Project",
         "info": "Collaborator in the creation and design of my hometown's website based on Wordpress and JS libraries. Constantly updating news on the site.",
@@ -30,7 +31,7 @@
         "experience": "Worked as Waiter",
         "db": "Databases",
         "cloud": "Cloud",
-        "security": "Cibersecurity"
+        "security": "Cybersecurity"
     },
     "contact": {
         "about": "Get in Touch",
