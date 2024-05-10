@@ -453,6 +453,7 @@ footer {
 
 #about p {
     color: var(--primary-color-titles);
+    margin-right: 100px;
 }
 
 /* Experiencia */
