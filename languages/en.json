@@ -3,7 +3,7 @@
         "rol": "Computer Science Engineer",
         "about": "About Me",
         "place": "Murcia, Spain",
-        "description": "Hi! I'm Alberto Sánchez, an undergraduate student Computer Engineering in Universidad de Murcia focused on software development and Deep Learning."
+        "description": "Hi! I'm Javier Sánchez, an undergraduate Computer Science and Engineering student at University of Murcia. Fully focused on software development and Deep Learning."
     },
     "experience": {
         "about": "Experience",
@@ -32,7 +32,11 @@
         "experience": "Worked as Waiter",
         "db": "Databases",
         "cloud": "Cloud",
-        "security": "Cybersecurity"
+        "security": "Cybersecurity",
+        "hobbies1": "Football",
+        "hobbies3": "Films",
+        "hobbies4": "Poker",
+        "hobbies5": "Geopolitics"
     },
     "contact": {
         "about": "Get in Touch",

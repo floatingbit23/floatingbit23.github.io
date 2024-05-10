@@ -3,7 +3,7 @@
         "rol": "Ingeniero Informático",
         "about": "Sobre mí",
         "place": "Murcia, España",
-        "description": "Hola! Soy Alberto Sánchez, un estudiante de Ingeniería Informática en la Universidad de Muricia enfocado en el desarrollo de software y el Deep Learning."
+        "description": "Hola! Soy Javier Sánchez, estudiante de Ingeniería Informática en la Universidad de Muricia enfocado en el desarrollo de software y el Deep Learning."
     },
     "experience": {
         "about": "Experiencia",
@@ -32,7 +32,11 @@
         "experience": "Experiencia como camarero",
         "db": "Bases de datos",
         "cloud": "Nube",
-        "security": "Ciberseguridad"
+        "security": "Ciberseguridad",
+        "hobbies1": "Fútbol",
+        "hobbies3": "Cine",
+        "hobbies4": "Póker",
+        "hobbies5": "Geopolítica"
     },
     "contact": {
         "about": "Contacta conmigo",
