@@ -2,6 +2,7 @@
     "profile": {
         "rol": "Ingeniero Informático",
         "about": "Sobre mí",
+        "place": "Murcia, España",
         "description": "Hola! Soy Alberto Sánchez, un estudiante de Ingeniería Informática en la Universidad de Muricia enfocado en el desarrollo de software y el Deep Learning."
     },
     "experience": {

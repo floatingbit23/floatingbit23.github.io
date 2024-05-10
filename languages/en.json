@@ -2,6 +2,7 @@
     "profile": {
         "rol": "Computer Science Engineer",
         "about": "About Me",
+        "place": "Murcia, Spain",
         "description": "Hi! I'm Alberto Sánchez, an undergraduate student Computer Engineering in Universidad de Murcia focused on software development and Deep Learning."
     },
     "experience": {
