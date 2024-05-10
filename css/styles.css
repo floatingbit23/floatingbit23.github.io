@@ -854,6 +854,10 @@ footer {
     padding: 15px;
 }
 
+.project-info img{
+    
+}
+
 .project-info h3 {
     font-size: 1.8em;
     font-style: italic;
@@ -933,13 +937,14 @@ footer {
     font-weight: 300;
     color: var(--primary-color-titles);
     margin: 0 0 15px 0;
-   margin-inline: 180px; 
     align-self: center;
+    text-align: left;
+    margin-right: 6px;
 }
 
 #skills h3-2 {
     font-size: 0.9em;
-    font-weight: 300;
+    font-weight: 200;
     color: var(--primary-color-titles);
     margin: 0 0 15px 0;
     margin-inline: 220px;
@@ -948,6 +953,15 @@ footer {
 
 #skills ul {
     display: flex;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 500px;
+}
+
+#skills ul2 {
+    display: flex;
+    justify-content: center ; /* Para centrar horizontalmente */
+    align-items: center; /* Para centrar verticalmente */
     margin: 0 auto;
     padding: 0;
     max-width: 500px;
