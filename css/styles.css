@@ -13,6 +13,12 @@
 
 /* @media (prefers-color-scheme: dark) */
 
+/* Estilos para el menú fijo al desplazarse por la web */ 
+
+
+
+
+
 /* Dark/Light mode */
 
 :root{
@@ -25,10 +31,20 @@
     --secondary-color: #edf2fc;
 }
 
+
 #icon{ 
     margin: 1em;
     width: 25px;
     cursor: pointer;
+    background: rgb(238, 183, 31);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(238, 183, 31);
+}
+
+#icon:hover{
+    background: rgb(238, 183, 31);
+    box-shadow: 0 0 10px 7px rgba(238, 183, 31);
+    border-radius: 10px;
 }
 
 /* Estilos generales */
@@ -168,7 +184,7 @@ header a:hover {
     color: #217dbb;
     text-decoration: none;
     background: #fff;
-    border-radius: 4px;
+    border-radius: 100px;
 }
 
 header a:focus {
@@ -1279,3 +1295,4 @@ img.displaySlide {
     from {opacity: 0.5}
     to {opacity: 1;}
 }
+
