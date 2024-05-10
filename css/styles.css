@@ -855,14 +855,15 @@ footer {
 }
 
 .project-info h3 {
-    font-size: 1.6em;
+    font-size: 1.8em;
+    font-style: italic;
     font-weight: 600;
     color: var(--primary-color-titles);
     position: relative;
 }
 
 .project-info p {
-    color: #74808a;
+    color: var(--primary-color-titles);
     margin: 0 0 12px 0;
     font-size: 1em;
     text-align: left;
@@ -1269,6 +1270,9 @@ footer {
 
 }
 
+
+/* -------------------------------------------------------------- */
+
 @media only screen and (max-width: 768px) {
     header {
         position: fixed;
@@ -1318,20 +1322,50 @@ footer {
         display: none;
      }
     */
+    
     .project-image img {
         transition: transform 0.3s ease-in-out;
     }
+    
     .project-image img:hover {
         transform: scale(1.1);
     }
 
     .project-info {
         position: relative;
-        margin: 0;
+        margin-left: -130px;
         padding: 30px 15px;
         top: auto;
         transform: none;
     }
+
+    .project-info p {
+        color: var(--primary-color-titles);
+        margin-left: -130px;
+    }
+
+    .project-info ul {
+        margin-left: -90px;
+    }
+
+    .project-info button {
+        margin-left: -100px;
+    }
+
+    .project-info-slider h3 {
+        font-size: 20px;
+        margin-right: 500px;
+    }
+
+    .project-info h3 {
+        font-size: 1.6em;
+        font-weight: 600;
+        color: var(--primary-color-titles);
+        position: relative;
+    }
+
+
+
     footer {
         text-align: center;
     }
@@ -1383,6 +1417,12 @@ footer {
 }
 
 }
+
+
+/* ------------------------------------------------------------- */
+
+
+
 
 @media only screen and (max-width: 480px) {
     #lead-content h1 {
@@ -1559,11 +1599,20 @@ img.displaySlide {
     transform: translateY(-50%);
     font-size: 2rem;
     padding: 5px 10px;
-    background-color: rgba(0, 0, 0, 0.507);
+    background-color: #a0cfee
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 100px;
+}
+
+.slider span {
+    font-size: 16px; margin-right: 5px;
+}
+
+.slider li {
+    font-size: 16px; 
+    margin-right: 5px;
 }
 
 .prev{
