@@ -26,11 +26,11 @@
     --secondary-color: #212121;
 }
 
+
 .dark-theme{
     --primary-color: #000019;
     --secondary-color: #edf2fc;
 }
-
 
 #icon{ 
     margin: 1em;
@@ -226,19 +226,25 @@ header.sticky {
     width: 100%;
     background: var(--primary-color);
     font-size: 1.5em;
-    padding-right: 15px;
-    padding-top: 30px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 0px;
     cursor: pointer;
     color: #3498db;
 }
 
 #mobile-menu-close span {
-    font-size: 0.5em;
+    font-size: 0.6em;
     text-transform: uppercase;
 }
 
 #mobile-menu-close i {
     vertical-align: middle;
+}
+
+#mobile-menu-close img {
+    margin-top: -48px;
+    mar
 }
 
 /* Pie de página */
@@ -1039,6 +1045,35 @@ footer {
     .vtimeline-content {
         margin-left: 70px;
     }
+
+    /* Dark/Light mode */
+
+:root{
+    --primary-color: rgba(255, 255, 255, 0.808);
+    --secondary-color: #212121;
+}
+
+
+.dark-theme{
+    --primary-color: #000019;
+    --secondary-color: #edf2fc;
+}
+
+#icon{ 
+    margin: 1em;
+    width: 25px;
+    cursor: pointer;
+    background: rgb(238, 183, 31);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(238, 183, 31);
+}
+
+#icon:hover{
+    background: rgb(238, 183, 31);
+    box-shadow: 0 0 10px 7px rgba(238, 183, 31);
+    border-radius: 10px;
+}
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -1074,6 +1109,35 @@ footer {
         text-align: left;
         color: var(--primary-color-titles);
     }
+
+    /* Dark/Light mode */
+
+:root{
+    --primary-color: rgba(255, 255, 255, 0.808);
+    --secondary-color: #212121;
+}
+
+
+.dark-theme{
+    --primary-color: #000019;
+    --secondary-color: #edf2fc;
+}
+
+#icon{ 
+    margin: 1em;
+    width: 25px;
+    cursor: pointer;
+    background: rgb(238, 183, 31);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(238, 183, 31);
+}
+
+#icon:hover{
+    background: rgb(238, 183, 31);
+    box-shadow: 0 0 10px 7px rgba(238, 183, 31);
+    border-radius: 10px;
+}
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -1143,6 +1207,35 @@ footer {
     .social {
         text-align: center;
     }
+
+    /* Dark/Light mode */
+
+:root{
+    --primary-color: rgba(255, 255, 255, 0.808);
+    --secondary-color: #212121;
+}
+
+
+.dark-theme{
+    --primary-color: #000019;
+    --secondary-color: #edf2fc;
+}
+
+#icon{ 
+    margin: 1em;
+    width: 25px;
+    cursor: pointer;
+    background: rgb(238, 183, 31);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(238, 183, 31);
+}
+
+#icon:hover{
+    background: rgb(238, 183, 31);
+    box-shadow: 0 0 10px 7px rgba(238, 183, 31);
+    border-radius: 10px;
+}
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -1156,6 +1249,35 @@ footer {
         font-size: 0.9em;
         padding: 5px 10px;
     }
+
+    /* Dark/Light mode */
+
+:root{
+    --primary-color: rgba(255, 255, 255, 0.808);
+    --secondary-color: #212121;
+}
+
+
+.dark-theme{
+    --primary-color: #000019;
+    --secondary-color: #edf2fc;
+}
+
+#icon{ 
+    margin: 1em;
+    width: 25px;
+    cursor: pointer;
+    background: rgb(238, 183, 31);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(238, 183, 31);
+}
+
+#icon:hover{
+    background: rgb(238, 183, 31);
+    box-shadow: 0 0 10px 7px rgba(238, 183, 31);
+    border-radius: 10px;
+}
+
 }
 
 /* Buttons in Projects WITHOUT Slider */ 
