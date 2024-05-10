@@ -854,10 +854,6 @@ footer {
     padding: 15px;
 }
 
-.project-info img{
-    
-}
-
 .project-info h3 {
     font-size: 1.8em;
     font-style: italic;
@@ -884,15 +880,6 @@ footer {
     text-align: left;
 } 
 
-/* .project-info-slider {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    width: 100%;
-    box-sizing: border-box;
-} */
 
 .project-info-slider h3 {
     font-size: 1.6em;
@@ -907,7 +894,6 @@ footer {
     font-size: 1em;
     text-align: left;
 }
-
 
 .no-image .project-info {
     position: relative;
@@ -1613,11 +1599,12 @@ img.displaySlide {
     transform: translateY(-50%);
     font-size: 2rem;
     padding: 5px 10px;
-    background-color: #a0cfee
+    background-color: #a0cfee;
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 100px;
+    margin-left: 5px;
 }
 
 .slider span {
