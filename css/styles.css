@@ -1597,10 +1597,10 @@ img.displaySlide {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 2rem;
+    font-size: 1.7rem;
     padding: 5px 10px;
-    background-color: #a0cfee;
-    color: white;
+    background-color: #8fa9f0;
+    color: var(--primary-color-titles);
     border: none;
     cursor: pointer;
     border-radius: 100px;
