@@ -103,10 +103,10 @@
     overflow-y: auto; 
     overflow-x: hidden;              /* Añade barra deslizadora si falta espacio para ver todos los elementos */
 
-    animation-name: dropHeader;
+    animation-name: dropHeader2;
     animation-iteration-count: 1;
     animation-timing-function: ease;
-    animation-duration: 0.40s;
+    animation-duration: 0.50s;
 
 }
 
@@ -183,6 +183,21 @@ body.active {
     100% {
         transform: translateY(0);
     }
+}
+
+@keyframes dropHeader2 {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    50% {
+        transform:rotateX(180deg)
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
 }
 
 .flags {
