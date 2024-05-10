@@ -47,6 +47,22 @@
     border-radius: 10px;
 }
 
+#icon2{ 
+    margin: 1em;
+    width: 25px;
+    cursor: pointer;
+    background: rgb(238, 183, 31);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(238, 183, 31);
+}
+
+#icon2:hover{
+    background: rgb(238, 183, 31);
+    box-shadow: 0 0 10px 7px rgba(238, 183, 31);
+    border-radius: 10px;
+}
+
+
 /* Estilos generales */
 body {
     font-family: 'Lato', sans-serif;
@@ -202,6 +218,7 @@ header.sticky {
 }
 
 /* Menú móvil */
+
 #menu.active {
     display: block;
 }
@@ -244,7 +261,6 @@ header.sticky {
 
 #mobile-menu-close img {
     margin-top: -48px;
-    mar
 }
 
 /* Pie de página */
@@ -802,9 +818,6 @@ footer {
 }
 
 
-
-
-
 .no-image .project-info {
     position: relative;
     margin: 0;
@@ -1074,6 +1087,21 @@ footer {
     border-radius: 10px;
 }
 
+#icon2{ 
+    margin: 1em;
+    width: 25px;
+    cursor: pointer;
+    background: rgb(238, 183, 31);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(238, 183, 31);
+}
+
+#icon2:hover{
+    background: rgb(238, 183, 31);
+    box-shadow: 0 0 10px 7px rgba(238, 183, 31);
+    border-radius: 10px;
+}
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -1138,6 +1166,21 @@ footer {
     border-radius: 10px;
 }
 
+#icon2{ 
+    margin: 1em;
+    width: 25px;
+    cursor: pointer;
+    background: rgb(238, 183, 31);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(238, 183, 31);
+}
+
+#icon2:hover{
+    background: rgb(238, 183, 31);
+    box-shadow: 0 0 10px 7px rgba(238, 183, 31);
+    border-radius: 10px;
+}
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -1150,9 +1193,11 @@ footer {
         height: 100%;
     }
     #mobile-menu-open,
+
     #mobile-menu-close {
         display: block;
     }
+    
     #menu {
         height: 100%;
         overflow-y: auto;
@@ -1236,6 +1281,21 @@ footer {
     border-radius: 10px;
 }
 
+#icon2{ 
+    margin: 1em;
+    width: 25px;
+    cursor: pointer;
+    background: rgb(238, 183, 31);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(238, 183, 31);
+}
+
+#icon2:hover{
+    background: rgb(238, 183, 31);
+    box-shadow: 0 0 10px 7px rgba(238, 183, 31);
+    border-radius: 10px;
+}
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -1273,6 +1333,21 @@ footer {
 }
 
 #icon:hover{
+    background: rgb(238, 183, 31);
+    box-shadow: 0 0 10px 7px rgba(238, 183, 31);
+    border-radius: 10px;
+}
+
+#icon2{ 
+    margin: 1em;
+    width: 25px;
+    cursor: pointer;
+    background: rgb(238, 183, 31);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(238, 183, 31);
+}
+
+#icon2:hover{
     background: rgb(238, 183, 31);
     box-shadow: 0 0 10px 7px rgba(238, 183, 31);
     border-radius: 10px;
