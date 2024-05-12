@@ -48,6 +48,7 @@
         "about": "Descargar CV"
     },
     "menu": {
+        "lead": "Perfil",
         "about": "Sobre mí",
         "experience": "Experiencia",
         "education": "Formación",

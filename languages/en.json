@@ -48,6 +48,7 @@
         "about": "Download Resume"
     },
     "menu": {
+        "lead": "Main",
         "about": "About",
         "experience": "Experience",
         "education": "Education",
