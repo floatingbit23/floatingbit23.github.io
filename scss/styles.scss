@@ -43,6 +43,11 @@
     cursor: pointer;
 }
 
+@import "/libs/font-awesome-v6/fontawesome-free-6.5.2-web/scss/fontawesome.scss";
+@import "/libs/font-awesome-v6/fontawesome-free-6.5.2-web/scss/solid.scss";
+@import "/libs/font-awesome-v6/fontawesome-free-6.5.2-web/scss/brands.scss";
+
+
 /*
     ------------------------
     ----- 1. Variables -----
@@ -299,7 +304,7 @@ footer {
 
     a {
         display: block;
-        color: $text;
+        color: #fff;
         padding: 10px;
 
         &:hover {

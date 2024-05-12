@@ -394,9 +394,13 @@ footer {
 }
 
 .social a {
-    display: block;
+    display: inline-block;
     color: #74808a;
     padding: 10px;
+    width: 55px; /* Ajusta el ancho del enlace según tus necesidades */
+    height: 55px; /* Ajusta la altura del enlace según tus necesidades */
+    text-align: center; /* Centra el ícono verticalmente */
+    line-height: 40px; /* Centra el ícono verticalmente */
 }
 
 .social a:hover {
