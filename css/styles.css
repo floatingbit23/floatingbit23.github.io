@@ -658,11 +658,10 @@ footer {
 
 .vtimeline-content h4 {
     font-size: 1.3em;
+    font-style: italic;
     font-weight: 400;
     color: var(--primary-color-titles);
     margin: 0 0 15px 0;
-
-
 }
 
 .vtimeline-content p {
@@ -688,12 +687,25 @@ footer {
     float: left;
     z-index: 99;
     margin-left: 280px;
+    animation: zoomIcon 2s infinite alternate; /* Animación de rotación infinita */
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+@keyframes zoomIcon {
+    0% { transform: scale(0.95); }
+    100% { transform: scale(1.1); }
+}
+
+.vtimeline-icon:hover {
+    transform: scale(1.1); /* Escala del icono al pasar el mouse sobre él */
 }
 
 .vtimeline-icon i {
     display: block;
     font-size: 2em;
     margin-top: 10px;
+
 }
 
 .vtimeline-date {
