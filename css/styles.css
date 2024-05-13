@@ -226,7 +226,6 @@ body.active {
     padding: 10px;
 }
 
-
 .dark {
     position: absolute;
     top: 4px;
@@ -757,9 +756,13 @@ footer {
     margin: 0 0 15px 0;
 }
 
-.education-block p,
+.education-block p {
+    padding-right: 165px;
+    color: #74808a;
+    font-size: 0.9em;
+}
+
 .education-block ul {
-    margin: 0;
     color: #74808a;
     font-size: 0.9em;
 }
@@ -1390,6 +1393,11 @@ footer {
         position: relative;
     }
 
+    .education-block p {
+        padding-right: 80px;
+        color: #74808a;
+        font-size: 0.9em;
+    }
 
 
     footer {
