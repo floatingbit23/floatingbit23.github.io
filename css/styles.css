@@ -689,8 +689,7 @@ footer {
 }
 
 .fa-map-marker::before {
-    content: "\f041"; 
-}
+    content: "\f041"; }
 
 @keyframes zoomIcon {
     0% { transform: scale(0.95); }
