@@ -78,11 +78,6 @@
     transition: top 0.3s;
 }
 
-#menu.visible {
-    /* top: 0;  Muestra el menú cuando la clase 'visible' está presente */
-    
-}
-
 
 #main.visible {
     top: 0; /* Muestra el menú cuando la clase 'visible' está presente */
@@ -675,7 +670,6 @@ footer {
 .vtimeline-point {
     position: relative;
     display: block;
-    vertical-align: top;
     margin-bottom: 30px;
 }
 
