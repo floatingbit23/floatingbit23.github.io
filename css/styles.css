@@ -554,6 +554,7 @@ footer {
     animation: pulsate 1.5s ease;
     animation-iteration-count: infinite;
     padding-top: 5px;
+    height: 10vh;
 }
 
 @keyframes pulsate {
@@ -1663,3 +1664,8 @@ img.displaySlide {
     to {opacity: 1;}
 }
 
+.col-sm-2.top i {
+    animation: pulsate 2s ease;
+    animation-iteration-count: infinite;
+    padding-top: 5px;
+}
