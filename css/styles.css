@@ -1434,6 +1434,11 @@ footer {
         position: relative;
     }
 
+    .project-info li {
+        border-radius: 200px;
+        font-style: italic;
+    }
+
     .education-block p {
         padding-right: 80px;
         color: #74808a;
