@@ -54,7 +54,8 @@
         "education": "Education",
         "certificates": "Certificates",
         "projects": "Projects",
-        "contact": "Contact"
+        "contact": "Contact",
+        "skills": "Tech Stack"
     },
     "certificates": {
         "info1": "Cibersecurity learning based on local machines.",

@@ -54,7 +54,8 @@
         "education": "Formación",
         "certificates": "Certificados",
         "projects": "Proyectos",
-        "contact": "Contacto"
+        "contact": "Contacto",
+        "skills": "Stack Tech"
     },
     "certificates": {
         "info1": "Aprendizaje de ciberseguridad online basado en entornos locales.",
