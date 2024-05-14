@@ -1309,6 +1309,8 @@ footer {
     border-radius: 10px;
 }
 
+
+
 }
 
 
@@ -1351,7 +1353,6 @@ footer {
         display: block;
         color: var(--primary-color-titles); /* Color del texto del menú */
         text-decoration: none;
-        padding: 0px; /* Ajustar el espacio alrededor del texto del enlace */
     }
 
     /* Estado activo del menú lateral en móvil */
@@ -1496,8 +1497,6 @@ footer {
 /* ------------------------------------------------------------- */
 
 
-
-
 @media only screen and (max-width: 480px) {
     #lead-content h1 {
         font-size: 1.5em;
@@ -1552,6 +1551,60 @@ footer {
     box-shadow: 0 0 10px 7px rgba(238, 183, 31);
     border-radius: 10px;
 }
+
+    header {
+        position: fixed;
+        display: none;
+        z-index: 999;
+        animation: none;
+        bottom: 0;
+        height: 100%;
+    }
+    #mobile-menu-open,
+
+    #mobile-menu-close {
+        display:list-item ;
+    }
+    
+    #menu {
+        height: 100%;
+        overflow-y: auto;
+        box-shadow: none;
+        border-radius: 0;
+        width: 135%;
+    }
+
+    #menu li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+ .fixed-menu-style li {
+        margin-bottom: -10px; /* Espacio entre elementos del menú */
+        margin-left: 0px;
+    }
+
+    .fixed-menu-style a {
+        display: block;
+        color: var(--primary-color-titles); /* Color del texto del menú */
+        text-decoration: none;
+    }
+
+    /* Estado activo del menú lateral en móvil */
+    .highlighted{
+    background-color: rgb(136, 199, 136);
+    color: var(--primary-color-titles);
+    border-radius: 20px;
+    transition: 1.1s ease;
+    box-shadow: 0 0 10px 0 rgba(136, 199, 136, 0.5); /* Empieza con una sombra más tenue */
+    margin-left: 22px;
+    margin-right: 5px;
+    padding-right: 10px;
+    }
+
+    .highlighted:hover {
+    box-shadow: 0 0 20px 10px rgba(136, 199, 136, 0); /* Aumenta la sombra para que desaparezca con el movimiento del ratón */
+    }
 
 }
 
