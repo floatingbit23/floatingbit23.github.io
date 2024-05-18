@@ -19,13 +19,13 @@ document.addEventListener('DOMContentLoaded', () => {
             if (response.ok) {
                 form.reset(); // Limpia el formulario
                 responseDiv.style.display = 'block'; // Muestra el mensaje de respuesta
-                // responseDiv.textContent = 'Message sent!';
+                responseDiv.textContent = 'Message sent!';
             } else {
                 throw new Error('Network response was not ok.');
             }
         } catch (error) {
             console.error('There was a problem with the fetch operation:', error);
-            responseDiv.style.display = 'block'; // Muestra el mensaje de error
+            responseDiv.style.display = 'block; background-color: red;'; // Muestra el mensaje de error
             responseDiv.textContent = 'There was a problem sending your message. Please check your connection or try again later.';
         }
     });
