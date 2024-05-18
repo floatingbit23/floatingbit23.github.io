@@ -430,11 +430,12 @@ footer {
 /* Botón redondeado blanco */
 .btn-rounded-white {
     display: inline-block;
-    color: var(--primary-color);
+    color: black;
     padding: 15px 25px;
-    border: 3px solid var(--primary-color);
+    border: 3px solid black;
     border-radius: 30px;
     transition: .5s ease all;
+    background-color: #a0c8d8;
 }
 
 .btn-rounded-white:hover {
