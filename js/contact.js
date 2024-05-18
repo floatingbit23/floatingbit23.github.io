@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('contactForm');
     const responseDiv = document.getElementById('form-response');
+    const responseDiv2 = document.getElementById('form-response-fail');
 
     form.addEventListener('submit', async (event) => {
         event.preventDefault(); // Evita que el formulario se envíe de la manera tradicional
@@ -25,8 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         } catch (error) {
             console.error('There was a problem with the fetch operation:', error);
-            responseDiv.style.display = 'block'; // Muestra el mensaje de error
-            responseDiv.textContent = 'There was a problem sending your message. Please try again later.';
+            responseDiv2.style.display = 'block'; // Muestra el mensaje de error
+            responseDiv2.textContent = 'There was a problem sending your message. Please check your connection or try again later.';
         }
     });
 });

@@ -1768,7 +1768,7 @@ img.displaySlide {
     padding-top: 5px;
 }
 
-/* Form response */
+/* Form response design */
 
 #form-response {
     display: none;
@@ -1781,4 +1781,19 @@ img.displaySlide {
     text-align: center; /* Centra el texto */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Opcional: añade una sombra */
     margin: 40px auto; /* Centra horizontalmente */
+    background-color: #b3e392;
+}
+
+#form-response-fail {
+    display: none;
+    margin-top: 20px;
+    background-color: #b3e392;
+    width: 200px; /* Ajusta el ancho según sea necesario */
+    padding: 10px; /* Ajusta el padding según sea necesario */
+    border-radius: 5px; /* Opcional: hace que las esquinas sean redondeadas */
+    font-size: 14px; /* Ajusta el tamaño de la fuente */
+    text-align: center; /* Centra el texto */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Opcional: añade una sombra */
+    margin: 40px auto; /* Centra horizontalmente */
+    background-color: #e47f7f;
 }

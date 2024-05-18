@@ -43,7 +43,7 @@
         "email": "Tu correo electrónico",
         "message": "Tu mensaje",
         "submit": "Enviar",
-        "confirm": "Mensaje enviado!"
+        "confirm": "¡Mensaje enviado!"
     },
     "resume": {
         "about": "Descargar CV"
