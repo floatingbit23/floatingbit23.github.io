@@ -42,7 +42,8 @@
         "about": "Get in Touch",
         "email": "Your email",
         "message": "Your message",
-        "submit": "Send"
+        "submit": "Send",
+        "confirm": "Message sent!"
     },
     "resume": {
         "about": "Download Resume"

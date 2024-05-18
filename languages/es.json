@@ -42,7 +42,8 @@
         "about": "Contacta conmigo",
         "email": "Tu correo electrónico",
         "message": "Tu mensaje",
-        "submit": "Enviar"
+        "submit": "Enviar",
+        "confirm": "Mensaje enviado!"
     },
     "resume": {
         "about": "Descargar CV"

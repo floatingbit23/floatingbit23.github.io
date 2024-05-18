@@ -502,19 +502,18 @@ content=" script-src 'self'
     <div id="contact" class="sectionmenu">
         <h2 data-section="contact" data-value="about">Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/f/xkndyqke">
-
+            <form id="contactForm">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" data-section="contact" data-value="email" placeholder="Your email" autocomplete="off" required>
                 <textarea name="message" data-section="contact" data-value="message" placeholder="Your message" autocomplete="off" required></textarea>
-
                 <button type="submit" data-section="contact" data-value="submit">Send</button>
-                
             </form>
         </div>
         <!-- End #contact-form -->
+        <div data-section="contact" data-value="confirm" id="form-response">Message sent!</div>
     </div>
     <!-- End #contact -->
+    
 
     <footer>
         <div class="container">
@@ -561,6 +560,7 @@ content=" script-src 'self'
     <!-- JS files -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
+    <script src="js/contact.js"></script>
     
 </body>
 </html>
