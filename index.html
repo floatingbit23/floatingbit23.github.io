@@ -2,14 +2,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
-<!-- CSP -->
-<meta 
-http-equiv="Content-Security-Policy" 
-content=" script-src 'self'
- 'unsafe-inline' 
-  https://ajax.googleapis.com https://raw.githubusercontent.com;">
-</meta>
-
 <head>
     <meta charset="utf-8">
     <meta name="author" content="Javier Sánchez">
@@ -20,6 +12,9 @@ content=" script-src 'self'
     <meta name="theme-color" content="#317EFB"/>
     <link rel="shortcut icon" href="/images/favicon2.svg" type="image/svg+xml">
     <link rel="icon" href="/images/favicon2.svg" type="image/x-icon">
+
+    <!-- CSP -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' https://ajax.googleapis.com https://raw.githubusercontent.com;">
     
     <!-- Font Awesome (consider removing redundant versions) -->
     <link rel="stylesheet" href="libs/font-awesome-v6/fontawesome-free-6.5.2-web/css/fontawesome.min.css">
@@ -94,7 +89,7 @@ content=" script-src 'self'
                 </li>
 
                 <li>
-                    <a data-section="menu" data-value="skills"href="#skills">Tech Stack</a>
+                    <a data-section="menu" data-value="skills" href="#skills">Tech Stack</a>
                 </li>
 
                 <li>
@@ -129,8 +124,8 @@ content=" script-src 'self'
             <img class="lead-img" style="margin-bottom: 20px" alt="" src="/images/foto_cv.jpg" >
             <h1>Javier Sánchez</h1>
             <h2 data-section="profile" data-value="rol">Computer Science Engineer</h2>
-            <p data-section="profile" data-value="place" style="font-size: larger;" ;>Murcia, Spain</p>
-            <a href="/images/earth.jpg" download="CV_Javier_Sánchez" class="btn-rounded-white" download data-section="resume" data-value="about">Download Resume</a>
+            <p data-section="profile" data-value="place" style="font-size: larger;">Murcia, Spain</p>
+            <a href="/images/earth.jpg" download="CV_Javier_Sánchez" class="btn-rounded-white" data-section="resume" data-value="about">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -276,7 +271,7 @@ content=" script-src 'self'
                 <div class="project shadow-large">
 
                     <div class="project-image">
-                        <img alt="" onclick="window.open('images/santomera-web-vertical.jpg', '_blank')" src="images/santomera-web-vertical.jpg" width="430px" height="550px"/>
+                        <img alt="" onclick="window.open('images/santomera-web-vertical.jpg', '_blank')" src="images/santomera-web-vertical.jpg" width="430" height="550"/>
                     </div>
                     <!-- End .project-image -->
 
@@ -331,12 +326,12 @@ content=" script-src 'self'
                     <div class="slider">
                         
                         <div class="project-image slides">
-                            <img class="slide" alt="" onclick="window.open('images/santomera-web-vertical.jpg', '_blank')" src="images/santomera-web-vertical.jpg" width="430px" height="550px">
-                            <img class="slide" alt="" onclick="window.open('images/santomera-carrera.jpg', '_blank')" src="images/santomera-carrera.jpg" width="430px" height="550px">
+                            <img class="slide" alt="" onclick="window.open('images/santomera-web-vertical.jpg', '_blank')" src="images/santomera-web-vertical.jpg" width="430" height="550">
+                            <img class="slide" alt="" onclick="window.open('images/santomera-carrera.jpg', '_blank')" src="images/santomera-carrera.jpg" width="430" height="550">
                         </div>
 
-                        <button class="prev" onclick="prevSlide()"> &#10094 </button>
-                        <button class="next" onclick="nextSlide()"> &#10095 </button>
+                        <button class="prev" onclick="prevSlide()"> &#10094; </button>
+                        <button class="next" onclick="nextSlide()"> &#10095; </button>
 
                     </div>
 
