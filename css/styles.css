@@ -1019,6 +1019,12 @@ footer {
     color: var(--primary-color-titles);
 }
 
+#skills figcaption {
+    padding-top: 15px;
+    font-size: 0.75em;
+    color: var(--primary-color-titles);
+}
+
 #skills li {
     flex: 1;
     display: inline-block;
