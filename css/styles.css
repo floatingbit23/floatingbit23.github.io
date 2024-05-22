@@ -985,7 +985,7 @@ footer {
     max-width: 500px;
 }
 
-#skills ul2 {
+#skills .stacklist {
     display: flex;
     justify-content: center ; /* Para centrar horizontalmente */
     align-items: center; /* Para centrar verticalmente */
