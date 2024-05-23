@@ -1169,6 +1169,14 @@ footer {
     padding: 0 0 0 15px;
 }
 
+.w3css {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 0 0;
+    margin: 0;
+}
+
 /* Responsive */
 @media only screen and (max-width: 750px) {
     #experience-timeline:before,
