@@ -598,6 +598,39 @@
     <script src="js/scripts.min.js"></script>
     <script src="js/contact.js"></script>
     
+    <!-- n8n Chatbot with Mistral AI implementation -->
+    <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+    
+    <script type="module">
+	    import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+	 createChat({
+		    webhookUrl: 'https://n8n.srv880022.hstgr.cloud/webhook/84b749c2-c7d3-4770-baa2-ba6fbd13ca54/chat',
+	        webhookConfig: {
+		        method: 'POST',
+		        headers: {}
+	        },
+        target: '#n8n-chat',
+        mode: 'window',
+        chatInputKey: 'chatInput',
+        chatSessionKey: 'sessionId',
+        loadPreviousSession: true,
+        metadata: {},
+        showWelcomeScreen: false,
+        defaultLanguage: 'es',
+        initialMessages: [],
+	    i18n: {
+		    es: {
+			    title: 'Hola! 👋',
+			    subtitle: "Chatea con mi asistente!",
+			    footer: '',
+			    getStarted: 'New Conversation',
+			    inputPlaceholder: 'Mensaje...',
+		    },
+	    },
+	});
+   
+   </script>
 
 </body>
 </html>
