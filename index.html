@@ -13,7 +13,8 @@
     <link rel="shortcut icon" href="/images/favicon2.svg" type="image/svg+xml">
     <link rel="icon" href="/images/favicon2.svg" type="image/x-icon">
 
-    <!-- CSP -->
+    <!-- CSP (Content Security Policy) -->
+
     <meta 
     http-equiv="Content-Security-Policy" 
     content="script-src 'self' 'unsafe-inline' https://ajax.googleapis.com https://raw.githubusercontent.com https://cdn.jsdelivr.net;">
@@ -52,7 +53,7 @@
     <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
 
     <!-- JS (carga todo el bundle en global) -->
-    <script src="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js"></script>
 
 </head>
 
