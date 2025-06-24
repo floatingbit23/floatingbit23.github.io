@@ -33,23 +33,33 @@
     <!-- OPEN GRAPH TAGS -->
 
     <!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://floatingbit23.github.io">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Floating Bit">
-<meta property="og:description" content="Portfolio de Javier Sánchez.">
-<meta property="og:image" content="/images/burro.jpg">
+    <meta property="og:url" content="https://floatingbit23.github.io">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Floating Bit">
+    <meta property="og:description" content="Portfolio de Javier Sánchez.">
+    <meta property="og:image" content="/images/burro.jpg">
 
-<!-- Twitter Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:domain" content="floatingbit23.github.io">
-<meta property="twitter:url" content="https://floatingbit23.github.io">
-<meta name="twitter:title" content="Floating Bit">
-<meta name="twitter:description" content="Portfolio de Javier Sánchez.">
-<meta name="twitter:image" content="/images/burro.jpg">
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="floatingbit23.github.io">
+    <meta property="twitter:url" content="https://floatingbit23.github.io">
+    <meta name="twitter:title" content="Floating Bit">
+    <meta name="twitter:description" content="Portfolio de Javier Sánchez.">
+    <meta name="twitter:image" content="/images/burro.jpg">
+
+    <!-- n8n Chatbot with Mistral AI implementation -->
+    <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
 
 </head>
 
 <body>
+
+    <!-- Botón para lanzar el chatbot -->
+    <button id="chatbot-btn">Abrir el asistente virtual</button>
+    <!-- Aquí aparecerá el chat -->
+    <div id="n8n-chat"></div>
+
+    <!--  #############################################  -->
 
     <div id="mobile-menu-open" class="shadow-large">
         <i class="fa fa-bars" aria-hidden="true"></i>
@@ -598,38 +608,51 @@
     <script src="js/scripts.min.js"></script>
     <script src="js/contact.js"></script>
     
-    <!-- n8n Chatbot with Mistral AI implementation -->
-    <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+    <!-- JS para n8n Chatbot -->
     
     <script type="module">
-	    import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
 
-	 createChat({
-		    webhookUrl: 'https://n8n.srv880022.hstgr.cloud/webhook/84b749c2-c7d3-4770-baa2-ba6fbd13ca54/chat',
-	        webhookConfig: {
-		        method: 'POST',
-		        headers: {}
-	        },
-        target: '#n8n-chat',
-        mode: 'window',
-        chatInputKey: 'chatInput',
-        chatSessionKey: 'sessionId',
-        loadPreviousSession: true,
-        metadata: {},
-        showWelcomeScreen: false,
-        defaultLanguage: 'es',
-        initialMessages: [],
-	    i18n: {
-		    es: {
-			    title: 'Hola! 👋',
-			    subtitle: "Chatea con mi asistente!",
-			    footer: '',
-			    getStarted: 'New Conversation',
-			    inputPlaceholder: 'Mensaje...',
-		    },
-	    },
-	});
+        // Esperamos a que el usuario haga clic en el botón
+        const boton = document.getElementById('chatbot-btn');
+
+        boton.addEventListener('click', async () => {
+            
+        // Cargamos el módulo del chatbot desde la CDN
+	    const { createChat } = await import('https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js');
+
+            // Iniciamos el chatbot con la configuración de n8n
+            createChat({
+                webhookUrl: 'https://n8n.srv880022.hstgr.cloud/webhook/84b749c2-c7d3-4770-baa2-ba6fbd13ca54/chat',
+                webhookConfig: {
+                    method: 'POST',
+                    headers: {}
+                },
+                target: '#n8n-chat',
+                mode: 'window',
+                chatInputKey: 'chatInput',
+                chatSessionKey: 'sessionId',
+                loadPreviousSession: true,
+                metadata: {},
+                showWelcomeScreen: false,
+                defaultLanguage: 'es',
+                initialMessages: [],
+                i18n: {
+                    es: {
+                        title: 'Hola! 👋',
+                        subtitle: "Chatea con mi asistente!",
+                        footer: '',
+                        getStarted: 'New Conversation',
+                        inputPlaceholder: 'Mensaje...',
+                    },
+                },
+            });
+
+        // Desactivamos el botón para que no lo vuelva a cargar varias veces
+        boton.disabled = true;
+        boton.innerText = 'Asistente activado';
    
+        });
+
    </script>
 
 </body>
