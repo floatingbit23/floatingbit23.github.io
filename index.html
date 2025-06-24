@@ -50,6 +50,9 @@
     <!-- n8n Chatbot with Mistral AI implementation -->
     <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
 
+    <!-- JS (carga todo el bundle en global) -->
+    <script src="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js"></script>
+
 </head>
 
 <body>
@@ -615,11 +618,7 @@
         // Esperamos a que el usuario haga clic en el botón
         const boton = document.getElementById('chatbot-btn');
 
-        boton.addEventListener('click', async () => {
-            
-        // Cargamos el módulo del chatbot desde la CDN
-	    const { createChat } = await import('https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js');
-
+        boton.addEventListener('click', () => {
             // Iniciamos el chatbot con la configuración de n8n
             createChat({
                 webhookUrl: 'https://n8n.srv880022.hstgr.cloud/webhook/84b749c2-c7d3-4770-baa2-ba6fbd13ca54/chat',
@@ -647,9 +646,9 @@
                 },
             });
 
-        // Desactivamos el botón para que no lo vuelva a cargar varias veces
-        boton.disabled = true;
-        boton.innerText = 'Asistente activado';
+            // Desactivamos el botón para que no lo vuelva a cargar varias veces
+            boton.disabled = true;
+            boton.innerText = 'Asistente activado';
    
         });
 
